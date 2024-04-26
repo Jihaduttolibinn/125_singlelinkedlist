@@ -55,6 +55,10 @@ void addNode() {
 		previous = current;
 		current = current->next;		// step 1
 	}
+	if (current == NULL)
+	{
+		return false;	// step 2
+	}
 
 
 
