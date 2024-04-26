@@ -173,6 +173,10 @@ void addNode() {
 					traverse();	 // step 3
 					break;
 
+				case 4:
+					searchData();	// step 4
+					break;
+
 
 
 
