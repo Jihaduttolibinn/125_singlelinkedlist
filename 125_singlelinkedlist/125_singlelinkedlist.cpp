@@ -177,6 +177,20 @@ void addNode() {
 					searchData();	// step 4
 					break;
 
+				case 5:
+					break;
+				default:
+					cout << "Pilihan tidak ada" << endl;	// step 5
+					break;
+				}
+			}
+			catch (exception e)
+			{
+				cout << "Terjadi Kesalahan" << endl;
+			}
+
+		} while (pilihan  != 5);
+	} 
 
 
 
