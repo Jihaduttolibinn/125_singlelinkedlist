@@ -63,6 +63,12 @@ void addNode() {
 	{
 		return true;	// step 3
 	}
+	else
+	{
+		return false;	// step 4
+	}
+}
+	
 
 
 
