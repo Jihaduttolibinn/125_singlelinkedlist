@@ -169,6 +169,10 @@ void addNode() {
 						cout << "Data tidak ditemukan" << endl;
 					break;
 
+				case 3:
+					traverse();	 // step 3
+					break;
+
 
 
 
