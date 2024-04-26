@@ -78,6 +78,13 @@ void addNode() {
 			START = current->next;
 		return true;
 	}
+	bool listEmpty() {
+		if (START == NULL)
+			return true;
+		else
+			return false;
+
+	}
 
 	
 
