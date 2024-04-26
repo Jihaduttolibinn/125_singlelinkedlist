@@ -141,6 +141,12 @@ void addNode() {
 				cin >> pilihan;
 				switch (pilihan)
 				{
+				case 1:
+					addNode();
+					cout << "Data Berhasil Ditambahkan" << endl;	// step 1
+					system("pause");
+					system("cls");
+					break;
 
 
 
