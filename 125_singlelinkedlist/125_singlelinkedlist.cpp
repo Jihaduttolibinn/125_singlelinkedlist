@@ -51,6 +51,11 @@ void addNode() {
 	current = START;
 	while (current != NULL && nim > current->noMhs)
 
+	{
+		previous = current;
+		current = current->next;		// step 1
+	}
+
 
 
 
