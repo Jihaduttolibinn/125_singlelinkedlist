@@ -59,6 +59,10 @@ void addNode() {
 	{
 		return false;	// step 2
 	}
+	else if (current->noMhs == nim)
+	{
+		return true;	// step 3
+	}
 
 
 
